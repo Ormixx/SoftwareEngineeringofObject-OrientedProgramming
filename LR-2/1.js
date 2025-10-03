@@ -1,9 +1,20 @@
-const steps = [10 * 2, 10 * 4, 10 * 6, 10 * 8];
 const digits = 10;
 const idealPercent = 10;
 
 function getRandomInt() {
     return Math.floor(Math.random() * digits);
+}
+
+const args = process.argv.slice(2);
+if (args.length === 0) {
+    console.error('Ошибка: не переданы данные для steps');
+    process.exit(1);
+}
+
+const steps = args.map(str => Number(str));
+if (steps.some(isNaN)) {
+    console.error('Ошибка: аргументы должны быть числами');
+    process.exit(1);
 }
 
 const deviationsArray = [];
@@ -19,20 +30,24 @@ for (let step of steps) {
 }
 
 function formatNumber(num) {
-    return num.toFixed(2).replace('.', ',').padStart(7, ' ');
+    return num.toFixed(2);
 }
 
-let header = 'i'.padStart(3, ' ');
+let html = '<table border="1" style="border-collapse: collapse; width: 100%; font-family: monospace;">';
+
+html += '<tr><th>i</th>';
 for (let step of steps) {
-    let s = step.toExponential().replace('e+', 'e').replace('.', ',');
-    header += s.padStart(9, ' ');
+    html += `<th>${step}</th>`;
 }
-console.log(header);
+html += '</tr>';
 
 for (let i = 0; i < digits; i++) {
-    let line = i.toString().padStart(3, ' ');
+    html += `<tr><td>${i}</td>`;
     for (let deviations of deviationsArray) {
-        line += formatNumber(deviations[i]);
+        html += `<td>${formatNumber(deviations[i])}</td>`;
     }
-    console.log(line);
+    html += '</tr>';
 }
+
+html += '</table>';
+console.log(html);
