@@ -1,0 +1,200 @@
+[
+  {
+    "position": 1,
+    "team": "Динамо Мн",
+    "games": 38,
+    "wins": 55,
+    "losses": 0,
+    "goals": "",
+    "points": 0
+  },
+  {
+    "position": 2,
+    "team": "Северсталь",
+    "games": 40,
+    "wins": 54,
+    "losses": 0,
+    "goals": "",
+    "points": 0
+  },
+  {
+    "position": 3,
+    "team": "Локомотив",
+    "games": 41,
+    "wins": 54,
+    "losses": 0,
+    "goals": "",
+    "points": 0
+  },
+  {
+    "position": 4,
+    "team": "Динамо М",
+    "games": 40,
+    "wins": 52,
+    "losses": 0,
+    "goals": "",
+    "points": 0
+  },
+  {
+    "position": 5,
+    "team": "Торпедо",
+    "games": 39,
+    "wins": 50,
+    "losses": 0,
+    "goals": "",
+    "points": 0
+  },
+  {
+    "position": 6,
+    "team": "ЦСКА",
+    "games": 41,
+    "wins": 45,
+    "losses": 0,
+    "goals": "",
+    "points": 0
+  },
+  {
+    "position": 7,
+    "team": "СКА",
+    "games": 38,
+    "wins": 45,
+    "losses": 0,
+    "goals": "",
+    "points": 0
+  },
+  {
+    "position": 8,
+    "team": "Спартак",
+    "games": 40,
+    "wins": 45,
+    "losses": 0,
+    "goals": "",
+    "points": 0
+  },
+  {
+    "position": 9,
+    "team": "Шанхайские Драконы",
+    "games": 38,
+    "wins": 39,
+    "losses": 0,
+    "goals": "",
+    "points": 0
+  },
+  {
+    "position": 10,
+    "team": "ХК Сочи",
+    "games": 37,
+    "wins": 28,
+    "losses": 0,
+    "goals": "",
+    "points": 0
+  },
+  {
+    "position": 11,
+    "team": "Лада",
+    "games": 39,
+    "wins": 26,
+    "losses": 0,
+    "goals": "",
+    "points": 0
+  },
+  {
+    "position": 1,
+    "team": "Металлург Мг",
+    "games": 38,
+    "wins": 60,
+    "losses": 0,
+    "goals": "",
+    "points": 0
+  },
+  {
+    "position": 2,
+    "team": "Авангард",
+    "games": 38,
+    "wins": 55,
+    "losses": 0,
+    "goals": "",
+    "points": 0
+  },
+  {
+    "position": 3,
+    "team": "Ак Барс",
+    "games": 40,
+    "wins": 54,
+    "losses": 0,
+    "goals": "",
+    "points": 0
+  },
+  {
+    "position": 4,
+    "team": "Автомобилист",
+    "games": 39,
+    "wins": 47,
+    "losses": 0,
+    "goals": "",
+    "points": 0
+  },
+  {
+    "position": 5,
+    "team": "Нефтехимик",
+    "games": 41,
+    "wins": 43,
+    "losses": 0,
+    "goals": "",
+    "points": 0
+  },
+  {
+    "position": 6,
+    "team": "Трактор",
+    "games": 40,
+    "wins": 39,
+    "losses": 0,
+    "goals": "",
+    "points": 0
+  },
+  {
+    "position": 7,
+    "team": "Амур",
+    "games": 40,
+    "wins": 38,
+    "losses": 0,
+    "goals": "",
+    "points": 0
+  },
+  {
+    "position": 8,
+    "team": "Салават Юлаев",
+    "games": 40,
+    "wins": 37,
+    "losses": 0,
+    "goals": "",
+    "points": 0
+  },
+  {
+    "position": 9,
+    "team": "Барыс",
+    "games": 41,
+    "wins": 34,
+    "losses": 0,
+    "goals": "",
+    "points": 0
+  },
+  {
+    "position": 10,
+    "team": "Сибирь",
+    "games": 40,
+    "wins": 34,
+    "losses": 0,
+    "goals": "",
+    "points": 0
+  },
+  {
+    "position": 11,
+    "team": "Адмирал",
+    "games": 38,
+    "wins": 31,
+    "losses": 0,
+    "goals": "",
+    "points": 0
+  }
+]
